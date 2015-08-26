@@ -1,0 +1,15 @@
+
+
+* Basic Ruby on Rails app that maintains a to-do list of taks to complete. Meant to educate introductory Rails developers.
+
+*This application has controllers, views, and a single model that are used to run the entire application. The controller handles all requests to the application, saves and accesses data stored in the models, and utilizes the view to display a webpage using HTML output. 
+
+* The controller has CRUD functions: CReate, Update, and Destroy. These are all found under app/controllers/todos_controller.rb
+*The view displays the html form that is sent to your browser to display the webpage.
+*The model contains the rules and relationships that your models has with other models. Because this is a very simple and straightfoward application, the todo model is very sparse. 
+
+*Feel free to copy this application for your own use, to learn more about Rails and the Model, View, Controller standard. 
+*Also if you are interested in any front-end work, you can play around with the CSS styles to make the page display diferent designs that you like. Have fun coding!
+
+*This site is deployed using Heroku and can be found at https://sheltered-shelf-7338.herokuapp.com/todos
+

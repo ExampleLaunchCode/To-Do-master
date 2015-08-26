@@ -1,0 +1,19 @@
+<%= link_to new_todo_path do %>
+   <p>New Item</p>
+ <% end %>
+
+<% @todos.each do |todo| %>
+	<li><%=todo.task%></li>
+	<ul class ="list-inline">
+	  <li><%= link_to edit_todo_path(todo) do %>
+	    Edit Item
+    	  <% end %></li>
+
+	  <li><%= link_to todo_path(todo), :method => :delete do %>
+    	    Delete Item
+    <% end %></li>
+    	</ul>
+<%end%>
+  
+
+    
